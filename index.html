@@ -1,0 +1,301 @@
+<!-- src/frontend/index.html -->
+<!doctype html>
+<html lang="hi">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>सोच से सफलता — KASHU Gaming</title>
+  <meta name="description" content="KASHU Gaming — गेमिंग न्यूज, रिव्यू, गाइड और कम्युनिटी" />
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+  <!-- Core stylesheet (replace path if needed) -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Favicon -->
+  <link rel="icon" href="../assets/logos/favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+  <!-- Accessible skip link -->
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Header / Navigation -->
+  <header class="site-header" role="banner">
+    <nav class="nav container" role="navigation" aria-label="Main Navigation">
+      <div class="nav-left">
+        <button class="nav-toggle" aria-controls="primary-menu" aria-expanded="false" aria-label="Open menu">
+          ☰
+        </button>
+        <ul id="primary-menu" class="nav-list">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#services">Services</a></li>
+        </ul>
+      </div>
+
+      <div class="brand" aria-hidden="false">
+        <a href="#home" class="brand-link">
+          <img src="../assets/logos/logo.svg" alt="KASHU Gaming logo" class="logo" />
+        </a>
+      </div>
+
+      <div class="nav-right">
+        <ul class="nav-list">
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact" class="btn btn-cta">Get Started</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Main content -->
+  <main id="main" tabindex="-1">
+    <!-- Hero -->
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-left">
+          <h1 class="hero-title">Play. Create. Conquer.</h1>
+          <p class="hero-sub">KASHU Gaming — लेटेस्ट गेमिंग न्यूज़, डीप रिव्यू, और कम्युनिटी टूर्नामेंट्स।</p>
+          <div class="hero-cta">
+            <a href="#features" class="btn btn-primary">Discover Features</a>
+            <a href="#projects" class="btn btn-ghost">Our Projects</a>
+          </div>
+
+          <ul class="hero-stats" aria-hidden="true">
+            <li><strong>10K+</strong><span>Monthly Visitors</span></li>
+            <li><strong>500+</strong><span>Guides Published</span></li>
+            <li><strong>50+</strong><span>Tournaments</span></li>
+          </ul>
+        </div>
+
+        <div class="hero-right">
+          <section class="slider-section">
+            <div class="slider-container">
+              <div class="slide active">
+                <img src="assets/photos/banners/slide1.jpg" alt="Slide 1">
+                <div class="slide-caption">Latest Updates & Gaming News</div>
+              </div>
+
+              <div class="slide">
+                <img src="assets/photos/banners/slide2.jpg" alt="Slide 2">
+                <div class="slide-caption">Exclusive Game Trailers</div>
+              </div>
+
+              <div class="slide">
+                <img src="assets/photos/banners/slide3.jpg" alt="Slide 3">
+                <div class="slide-caption">Community Tournaments</div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Placeholder image / promo card -->
+          <div class="promo-card" role="img" aria-label="Game trailer promo">
+            <img src="../assets/photos/banners/hero-banner.jpg" alt="Game banner" class="promo-image" />
+            <div class="promo-overlay">
+              <button class="play-btn" aria-label="Play trailer">▶</button>
+              <p>Watch the latest trailer</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section id="features" class="section features">
+      <div class="container">
+        <h2 class="section-title">Features</h2>
+        <p class="section-lead">हमारे प्लेटफ़ॉर्म पर क्या-क्या मिलेगा</p>
+
+        <div class="grid grid-3">
+          <article class="card">
+            <h3>Real-time News</h3>
+            <p>इवेंट कवरेज, अपडेट्स और लाइव ब्लॉग्स — हमेशा समय पर।</p>
+          </article>
+
+          <article class="card">
+            <h3>In-depth Guides</h3>
+            <p>स्टेप-बाय-स्टेप गाइड्स, कैरेक्टर बिल्ड्स और स्ट्रैटेजीज़।</p>
+          </article>
+
+          <article class="card">
+            <h3>Community</h3>
+            <p>फ़ोरम, टूर्नामेंट पेज और Discord integration — जुड़ें और खेलें साथ में।</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="section services alt-bg">
+      <div class="container">
+        <h2 class="section-title">Our Services</h2>
+        <p class="section-lead">हमारी प्रमुख सर्विसेज</p>
+
+        <div class="grid grid-3">
+          <div class="service">
+            <h4>Premium Membership</h4>
+            <p>Ad-free reading, exclusive guides, and member-only tournaments.</p>
+            <a class="link" href="#contact">Join Now →</a>
+          </div>
+
+          <div class="service">
+            <h4>Content Sponsorship</h4>
+            <p>ब्रांड साझेदारी और स्पॉन्सर्ड स्टोरी पैकेजेस।</p>
+            <a class="link" href="#contact">Request Info →</a>
+          </div>
+
+          <div class="service">
+            <h4>Media Production</h4>
+            <p>Trailers, highlight reels, और प्रो-लेवल एडिटिंग सर्विसेज़।</p>
+            <a class="link" href="#projects">See Work →</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section about">
+      <div class="container about-grid">
+        <div class="about-text">
+          <h2>About KASHU Gaming</h2>
+          <p>हम एक passionate गेमिंग कम्युनिटी हैं जो quality कंटेंट और events पर फोकस करते हैं। हमारा मकसद है
+            खिलाड़ियों को बेहतर बनाने में मदद करना और गेमिंग कल्चर को बढ़ावा देना।</p>
+          <ul class="about-list">
+            <li>Transparent reviews</li>
+            <li>Community-driven events</li>
+            <li>Secure payment & memberships</li>
+          </ul>
+          <a class="btn btn-outline" href="#contact">Contact Us</a>
+        </div>
+        <div class="about-media">
+          <img src="../assets/photos/banners/about-hero.jpg" alt="About KASHU Gaming" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects / Showcase -->
+    <section id="projects" class="section projects">
+      <div class="container">
+        <h2 class="section-title">Our Projects</h2>
+        <p class="section-lead">कुछ हालिया प्रोजेक्ट्स और कोलैबोरेशन्स</p>
+
+        <div class="grid grid-3 projects-grid">
+          <figure class="project-card">
+            <img src="../assets/photos/thumbnails/project-1.jpg" alt="Project 1 screenshot">
+            <figcaption>
+              <h4>Indie Launch</h4>
+              <p>Promotion and launch campaign for indie title.</p>
+            </figcaption>
+          </figure>
+
+          <figure class="project-card">
+            <img src="../assets/photos/thumbnails/project-2.jpg" alt="Project 2 screenshot">
+            <figcaption>
+              <h4>Tournament Series</h4>
+              <p>Organized regional online tournaments with 1K+ participants.</p>
+            </figcaption>
+          </figure>
+
+          <figure class="project-card">
+            <img src="../assets/photos/thumbnails/project-3.jpg" alt="Project 3 screenshot">
+            <figcaption>
+              <h4>Media Package</h4>
+              <p>Trailers and highlight edits for AAA titles.</p>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact / Payments -->
+    <section id="contact" class="section contact alt-bg">
+      <div class="container contact-grid">
+        <div class="contact-form card">
+          <h2>Contact Us</h2>
+          <p>साझेदारी, सदस्यता या सपोर्ट — मैसेज भेजो।</p>
+          <form id="contactForm" action="/contact" method="post" novalidate>
+            <label for="name">नाम</label>
+            <input id="name" name="name" type="text" required />
+
+            <label for="email">ईमेल</label>
+            <input id="email" name="email" type="email" required />
+
+            <label for="message">मैसेज</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+
+        <aside class="contact-info card" aria-labelledby="contactHeading">
+          <h3 id="contactHeading">Office & Support</h3>
+          <p><strong>HQ:</strong> City, Country</p>
+          <p><strong>Email:</strong> support@kashugaming.example</p>
+          <p><strong>Discord:</strong> discord.gg/your-server</p>
+
+          <hr>
+
+          <h4>Membership (Payments)</h4>
+          <p>हम Stripe Checkout का इस्तेमाल करते हैं — सुरक्षित पेमेंट और सब्सक्रिप्शन्स।</p>
+          <button id="checkoutBtn" class="btn btn-cta">Become a Member</button>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <img src="../assets/logos/mark.png" alt="KASHU mark" class="footer-mark" />
+        <p>© <span id="year"></span> KASHU Gaming. All rights reserved.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="/privacy">Privacy</a>
+        <a href="/terms">Terms</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </footer>
+
+  <!-- Minimal JS hooks -->
+  <script>
+    // set current year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // mobile nav toggle
+    const navToggle = document.querySelector('.nav-toggle');
+    const primaryMenu = document.getElementById('primary-menu');
+    navToggle && navToggle.addEventListener('click', () => {
+      const expanded = navToggle.getAttribute('aria-expanded') === 'true';
+      navToggle.setAttribute('aria-expanded', String(!expanded));
+      primaryMenu.classList.toggle('open');
+    });
+
+    // checkout button (example: call backend to create session)
+    document.getElementById('checkoutBtn')?.addEventListener('click', async () => {
+      try {
+        const res = await fetch('/create-checkout-session', { method: 'POST' });
+        const data = await res.json();
+        if (data.sessionId) {
+          // if using Stripe on client: redirectToCheckout({ sessionId: data.sessionId })
+          console.log('redirect to checkout', data.sessionId);
+        } else {
+          alert('Checkout not configured on server.');
+        }
+      } catch (err) {
+        console.error(err);
+        alert('Error starting checkout.');
+      }
+    });
+
+    // basic form submission demo (replace with real endpoint)
+    document.getElementById('contactForm')?.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      alert('Thank you! Your message was sent (demo).');
+      e.target.reset();
+    });
+  </script>
+</body>
+
+</html>
